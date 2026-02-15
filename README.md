@@ -40,4 +40,4 @@ The dataset is relatively clean and well-separated, which is why most models ach
 ## Deployment
 - Streamlit App: Deployed on Streamlit Community Cloud  
 - Repository: https://github.com/aishsingh1301-a11y/ml-assignment-2
-- Live App:
+- Live App: https://aishwarya-ml-assignment-2.streamlit.app/
