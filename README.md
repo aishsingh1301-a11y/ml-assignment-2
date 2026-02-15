@@ -7,7 +7,7 @@ BITS M.Tech ML Assignment 2
 The task is to build classification models to predict whether a breast tumor is **malignant** (0) or **benign** (1) based on features extracted from digitized images of fine needle aspirates of breast masses.  
 We implement and compare six classification algorithms and deploy an interactive Streamlit application to demonstrate model predictions and performance metrics.
 
-## b. Dataset description [1 mark]
+## b. Dataset description
 - **Name**: Breast Cancer Wisconsin (Diagnostic)  
 - **Source**: Built-in scikit-learn dataset (originally from UCI Machine Learning Repository)  
 - **Instances**: 569  
@@ -21,13 +21,8 @@ We implement and compare six classification algorithms and deploy an interactive
 Comparison Table with evaluation metrics (calculated on test set, 20% split):
 
 === Model Comparison Table ===
-                     Accuracy     AUC  Precision  Recall      F1     MCC
-logistic_regression    0.9825  0.9954     0.9861  0.9861  0.9861  0.9623
-decision_tree          0.9123  0.9157     0.9559  0.9028  0.9286  0.8174
-knn                    0.9649  0.9792     0.9595  0.9861  0.9726  0.9245
-naive_bayes            0.9298  0.9868     0.9444  0.9444  0.9444  0.8492
-random_forest          0.9561  0.9937     0.9589  0.9722  0.9655  0.9054
-xgboost                0.9561  0.9901     0.9467  0.9861  0.9660  0.9058
+
+<img width="828" height="194" alt="image" src="https://github.com/user-attachments/assets/d84c1422-f904-4d47-a2bc-5db350395282" />
 
 ### Observations on the performance of each model on the chosen dataset
 
